@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale = 1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="borrowedbooks.css">
+	<title>Borrowed Books</title>
+</head>
+<body>
+<div class="container-fluid">
+	<div class = "page-header">
+	    <div class="container-fluid">
+	          <div class = "button">
+	                  <!-- Nav bar !-->
+	                  <ul class = "list-inline">
+	                    <li><a href="index.html">Home</a></li>
+							<li><a href="userpage.html">Profile</a></li>
+							<li><a href="borrowedbooks.html">Borrowed Books</a></li>
+							<li><a href="availablebooks.html">Available Books</a></li>
+	                  </ul>
+	                  <!-- Header !-->
+	                  <div class="jumbotron">
+	                      <span id = "sitetitle">Hello-Books</span>
+	                      <img src="image8.png" id = "logo" alt = "hello-books logo">
+	                      <p id= "subtitle">A world of books for young and old</p>  
+	                </div>
+	          </div>
+	    </div>
+	</div>
+	<!--Borrowed Books !-->
+	<div class="col-lg-1, col-md-1, col-sm-2, col-xm-3">
+		<h1>Borrowed Books</h1>
+		<div class="media">
+			<div class="media-left media-top">
+				<img class = "media-object" src="just friends.jpg">
+			</div>
+			<div class="media-body">
+				<output name = "book" for = "">Just Friends: A story about childhood bestfriends to teenage sweethearts</output>
+			</div>
+			<input type="button" class="btn btn-md, btn-success disabled" value="Returned">
+		</div>
+
+		<div class="media">
+			<div class="media-left media-top">
+				<img class = "media-object" src="too big to fail.jpg">
+			</div>
+			<div class="media-body">
+				<output name = "book" for = "">Too Big to Fail: The inside story of how Wall street and Washington fought to save the financial system and themselves</output>
+			</div>
+			<button type="button" class="btn btn-lg, btn-md, btn-sm, btn-xm, btn-info activate" value="Return" onclick="">Return</button>
+		</div>
+
+		<div class="media">
+			<div class="media-left media-top">
+				<img class = "media-object" src="harry potter.jpg">
+			</div>
+			<div class="media-body">
+				<output name = "book" for = "">Harry Potter And The Half Blood Prince</output>
+			</div>
+			<button type="button" class="btn btn-lg, btn-md, btn-sm, btn-xm, btn-info activate" value="Return" onclick="">Return</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

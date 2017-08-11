@@ -1,0 +1,56 @@
+body{
+		background-color: #fff;
+	}
+	.jumbotron{
+
+		background-image:url("image6.jpg");
+		padding-bottom: 10px;
+	}
+	.jumbotron p{
+		margin-top: 20px;
+		margin-bottom:15px;
+		font-size:21px;
+		font-weight:200
+		color: #fff;
+
+	}
+	.btn{
+		color: red;
+		vertical-align: middle;
+		font-weight: bold;
+
+	}
+	#sitetitle{
+		font-size: 5em;
+		vertical-align: middle;
+		font-family: cursive;
+		color: #fff;
+		font-weight: bold; 
+	}
+	#logo{
+		height: 100px;
+		width: 100px;
+		border-radius: 10px;
+	}
+	p.info{
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+	color: #A52A2A;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+	#info{
+	margin-top: 30px;
+	margin-left: 50px;
+	text-align: center;
+	}
+	#info h2{
+		font-weight: bolder;
+	}
+	.imgheader{
+		width: 200px;
+	}
+	#subtitle{
+		color: #FAEBD7;
+	}

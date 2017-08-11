@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <title>Register</title>
+</head>
+<!-- CSS Style !-->
+<style type="text/css">
+.btn{
+  color: #ffffff;
+}
+#subtitle{
+  color: #FAEBD7
+}
+h3{
+  text-align: center;
+  color: #4169E1;
+  font-weight: bold;
+}
+</style>
+<!--Body!-->
+<body>
+<div class = "container-fluid">
+<div class = "page-header">
+        <div class="container-fluid">
+          <div class = "button">
+                  <!-- Nav bar !-->
+                  <ul class = "list-inline">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="login.html">User</a></li>
+                    <li><a href="adminlogin.html">Admin</a></li>
+                  </ul>
+                  <!-- Header !-->
+                  <div class="jumbotron">
+                      <span id = "sitetitle">Hello-Books</span>
+                      <img src="image8.png" id = "logo" alt = "hello-books logo">
+                      <p id= "subtitle">A world of books for young and old</p>  
+                </div>
+          </div>
+        </div>
+    </div>
+  <div class="row">
+  <!-- Form !-->
+    <form class="form-horizontal">
+        <fieldset>
+        <!-- Text input-->
+        <h3>Create Account</h3>
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="email">Email</label>  
+          <div class="col-md-5">
+          <input id="email" name="email" type="text" placeholder="Your email here" class="form-control input-md" required="">
+          <span class="help-block">xxxxxxxxx@xxxxx.xxx</span>  
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="username">Username</label>  
+          <div class="col-md-5">
+          <input id="username" name="username" type="text" placeholder="Your username" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="password">Password </label>
+          <div class="col-md-5">
+            <input id="password" name="password" type="password" placeholder="Password" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="confirmation"></label>
+          <div class="col-md-4">
+            <button id="confirmation" name="confirmation" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+
+        </fieldset>
+    </form>
+  </div>
+</div>
+</body>
+</html>
